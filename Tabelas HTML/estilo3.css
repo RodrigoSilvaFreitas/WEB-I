@@ -1,0 +1,12 @@
+table, th, tr, td {
+border: solid 2px black;
+background-color: rgb(0, 162, 255);
+border-collapse: collapse;
+text-align: center;
+justify-content: center;
+align-items: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 35%;
+}

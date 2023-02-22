@@ -1,0 +1,15 @@
+table,
+th,
+tr,
+td {
+    border: solid 2px;
+    background-color: #e49d74;
+    border-collapse: collapse;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+}
