@@ -1,0 +1,155 @@
+.Tecnologia{
+    background-image: url(imagens/i01.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 100%;
+    }
+.Idiomas{
+    background-image: url(imagens/Idiomas.jfif);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: black;
+    }
+.Idiomas p {
+    text-align: justify;
+    font-size: 22px;
+    font-family: Arial Rounded MT Bold,Verdana, Geneva, Tahoma, sans-serif;
+    color:  white;
+    }
+.Jogos{
+    background-image: url(imagens/VG.jpg);
+    background-size: 52.5%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: black;
+    }
+.Jogos p {
+    text-align: justify;
+    font-size: 22px;
+    font-family: Arial Rounded MT Bold,Verdana, Geneva, Tahoma, sans-serif;
+    color:  white;
+    }
+.Musicas{
+    background-image: url(imagens/Music.jpg);
+    background-size: 28%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: black;
+    }
+.Tecnologia{
+    background-image: url(imagens/i01.jpg);
+    background-size: 80%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: black;
+    }
+.Tecnologia p {
+    text-align: justify;
+    font-size: 22px;
+    font-family: Arial Rounded MT Bold,Verdana, Geneva, Tahoma, sans-serif;
+    color:  white;
+    }
+
+a:hover {
+    background-color: gray;
+    color: green;
+    }   
+    
+a:active {
+    background-color: gray;
+    color: green;
+    }
+    
+a:visited {
+    background-color: gray;
+    color: rgb(4, 66, 4);
+    }
+#menu ul {
+    padding:0px;
+	margin:10px;
+	background-color:black;
+	list-style:none;
+    display: inline-block;
+    }
+#menu ul li { 
+   display: inline;
+    }
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    /* visual do link */
+    background-color:gray;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid gray;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    }
+#menu ul li a:hover {
+	background-color:#D6D6D6;
+	color: gray;
+	border-bottom:3px solid green;
+    }
+
+body {
+    background-image: url(imagens/Fundo.jpg);
+    background-repeat: no-repeat;
+    }
+.figure {
+    float: left;
+    width: 15%;
+    border: thin silver solid;
+    margin: 0.1em;
+    padding: 0.1em;
+    text-align: center;
+    text-indent: 0;
+    }
+img.scaled {
+    width: 100%;
+    }
+.nome {
+    text-align: left;
+    font-size: 28px; 
+    font-family: Arial Rounded MT Bold, Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    }
+h1 {
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial Rounded MT Bold, Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+    }
+p {
+    text-align: justify;
+    font-size: 22px;
+    font-family: Arial Rounded MT Bold,Verdana, Geneva, Tahoma, sans-serif;
+    color:  white;
+    }
+h3, li{
+    list-style-type: square;
+    font-size: 22px;
+    font-family: Arial Rounded MT Bold, Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+    }
+    h4, li {
+        text-align: justify;
+        font-size: 22px;
+        font-family: Arial Rounded MT Bold,Verdana, Geneva, Tahoma, sans-serif;
+        color:  white;   
+    }
+#rodape {
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    }
+#rodape img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover; /* classe pra deixa a imagem com a proporção correta e não ficar achatada */
+    }
+.musica1 {
+    display: flex;
+    }   
