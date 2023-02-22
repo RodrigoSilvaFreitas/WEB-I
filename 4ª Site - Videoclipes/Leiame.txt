@@ -1,0 +1,3 @@
+Autoplay funcionou normalmente somente navegador no Mozila.
+
+O comando "controls" foi evitado propositalmente para deixar o visual minimalista.
