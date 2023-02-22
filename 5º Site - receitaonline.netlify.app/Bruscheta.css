@@ -1,0 +1,259 @@
+.back {
+    width: 100%;
+    height: 60vh;
+    background-image: url('imagens/brusc.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    place-content: center;
+    padding: 0;
+}
+
+.back p {
+    color: #fff;
+    font-size: 35px;
+    width: 700px;
+}
+
+.ul img {
+    width: 10%;
+    margin: 2px;
+    display: inline-flex;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+    max-width: 100%;
+}
+
+.menu ul {
+    width: 100%;
+    margin: 0;
+    display: inline-flex;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 0;
+    list-style: none;
+    color: rgb(41, 41, 41);
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(41, 41, 41);
+    display: inline-block;
+    font-size: 19px;
+}
+
+.menu ul li a:hover {
+    background-color: rgb(41, 41, 41);
+    color: beige;
+}
+
+main img {
+    width: 100%;
+    height: 400px;
+    margin-top: 5px;
+}
+
+.corpo {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    color: rgb(41, 41, 41);
+}
+
+.h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+}
+
+.relacionadas h2 {
+    color: rgb(41, 41, 41);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.texto {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: justify;
+    top: 350PX;
+    width: 140px;
+    line-height: 30px;
+    height: 26px;
+    font-size: 30px;
+}
+
+.texto2 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: justify;
+    top: 50PX;
+    width: 450px;
+    line-height: auto;
+    height: auto;
+    font-size: 30px;
+}
+
+.corpo .parte1 {
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    color: rgb(61, 61, 61);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.parte1>h1 {
+    color: #c90000;
+}
+
+.corpo .parte2 {
+    background-color: #c90000;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.textoa {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: justify;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+}
+
+.textob {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+    text-align: justify;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+}
+
+.textob li {
+    border-bottom: 0.5px solid white;
+    padding: 2px;
+    margin: 10px;
+}
+
+.textoa li {
+    border-bottom: 1px solid rgb(139, 139, 139);
+    margin: 10px;
+    padding: 2px;
+    width: 700px;
+}
+
+.text {
+    color: #c90000;
+    margin: 10px;
+    padding: 2px;
+}
+
+.relacionadas {
+    font-size: 19px;
+    text-align: center;
+    color: rgb(41, 41, 41);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box1 .box2 .box3 .box4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    color: rgb(41, 41, 41);
+}
+
+.costela img {
+    width: 300px;
+    height: 150px;
+    padding-top: 8px;
+    box-sizing: border-box;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.burrito img {
+    width: 300px;
+    height: 150px;
+    padding-top: 8px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.pizza img {
+    width: 300px;
+    height: 150px;
+    padding-top: 8px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.creme img {
+    width: 300px;
+    height: 150px;
+    padding-top: 8px;
+    box-sizing: border-box;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+
+.rodape {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    text-align: justify;
+    display: flex;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.rodape img {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    /* classe pra deixa a imagem com a proporção correta e não ficar achatada */
+}
